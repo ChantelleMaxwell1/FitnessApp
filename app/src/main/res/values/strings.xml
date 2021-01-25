@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AppFitness</string>
+    <string name="user_info_header">user_info_header_image</string>
+
+    <string-array name="active_level">
+        <item>Not active</item>
+        <item>Somewhat active</item>
+        <item>Active</item>
+        <item>Very Active</item>
+    </string-array>
+
+    <string-array name="meal_type">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Snacks</item>
+    </string-array>
+</resources>

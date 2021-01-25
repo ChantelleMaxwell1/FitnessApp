@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Activity_homepage">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="141dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/header_bg" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textColor="#FFFFFF"
+        android:layout_alignBottom="@id/imageView2"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="30sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="141dp"
+        android:padding="10dp"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#EDEDED">
+
+            <TextView
+                android:text="Profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:paddingRight="180dp"/>
+
+            <Button
+                android:id="@+id/btn_profile"
+                android:background="@color/colorAccent"
+                android:text="Edit"
+                android:textColor="#FFFFFF" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#EDEDED">
+
+            <TextView
+                android:text="Food Diary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:paddingRight="180dp"/>
+
+            <Button
+                android:text="Edit"
+                android:background="@color/colorAccent"
+                android:textColor="#FFFFFF"
+                />
+
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
